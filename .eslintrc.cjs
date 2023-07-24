@@ -25,7 +25,7 @@ const config = {
     "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
     "@typescript-eslint/no-unnecessary-type-assertion": "off",
     "@typescript-eslint/no-floating-promises": "off",
-    "@typescript-eslint/await-thenable": "error"
+    "@typescript-eslint/await-thenable": "error",
   },
 };
 

@@ -26,7 +26,7 @@ function LookScreen({...p} : props) {
     },[addConvr.data])
 
     const Handler = async (id: string) => {
-        await addConvr.mutate({usersId: [id, session.data?.user.id!]})
+        addConvr.mutate({usersId: [id, session.data?.user.id!]})
         setClick(true)
     }
 

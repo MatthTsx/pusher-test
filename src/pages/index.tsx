@@ -22,7 +22,7 @@ function Home() {
   const handlerOnline = async (Online: OnStatus) => {
     if(!session?.user.id) return
     console.log('a', session.user.id, Online)
-    await markOnline.mutate({id: session?.user.id!, status: Online})
+    markOnline.mutate({id: session?.user.id!, status: Online})
   }
 
   useEffect(() => {
