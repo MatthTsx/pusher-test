@@ -19,7 +19,7 @@ function Home() {
   const {data: session} = useSession()
   const [screen, setScreen] = useState(0)
 
-  const handlerOnline = async (Online: OnStatus) => {
+  const handlerOnline = (Online: OnStatus) => {
     if(!session?.user.id) return
     console.log('a', session.user.id, Online)
     markOnline.mutate({id: session?.user.id!, status: Online})
