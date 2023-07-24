@@ -1,4 +1,5 @@
 import { useSession } from 'next-auth/react'
+import Head from 'next/head'
 import React, { useEffect, useState } from 'react'
 import LeftBar from '~/components/layout/LeftBar'
 import LookScreen from '~/components/layout/LookScreen'
@@ -35,6 +36,10 @@ function Home() {
 
 
   return (
+    <>
+    <Head>
+      <title>Howszap</title>
+    </Head>
     <div className='w-full h-screen bg-black flex relative'>
         <LeftBar changeId={setConversationId} id={ConversationId}/>
         {ConversationId == "_LOOK_" ? 
@@ -42,6 +47,7 @@ function Home() {
         :<RightBar id={ConversationId}/>
         }
     </div>
+    </>
   )
 }
 
