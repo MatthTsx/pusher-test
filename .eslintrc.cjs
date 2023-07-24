@@ -19,6 +19,11 @@ const config = {
       },
     ],
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/array-type": 'off',
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
+    "@typescript-eslint/no-unnecessary-type-assertion": "off"
   },
 };
 
