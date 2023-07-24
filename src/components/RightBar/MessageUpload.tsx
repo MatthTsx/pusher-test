@@ -54,7 +54,7 @@ function MessageUpload({...p} : props) {
         border-b no-scrollbar'
         id={"MessageTextInput"}/>
         <button onClick={() => Upload()} className=''>Send</button>
-        <button onClick={() => deleteALL.mutate()}>Hard reset</button>
+        {/* <button onClick={() => deleteALL.mutate()}>Hard reset</button> */}
     </div>
   )
 }
