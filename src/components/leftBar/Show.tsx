@@ -1,6 +1,5 @@
-import Image from 'next/image'
 import React, { useEffect } from 'react'
-import { UserViewer } from '~/libs/types'
+import type { UserViewer } from '~/libs/types'
 import ChatProfile from './ChatProfile'
 
 interface props{

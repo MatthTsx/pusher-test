@@ -18,7 +18,7 @@ const config = {
         fixStyle: "inline-type-imports",
       },
     ],
-    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    // "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/no-misused-promises": "off",
     "@typescript-eslint/array-type": 'off',
     "@typescript-eslint/consistent-type-definitions": "off",
@@ -26,6 +26,8 @@ const config = {
     "@typescript-eslint/no-unnecessary-type-assertion": "off",
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/await-thenable": "error",
+    "@typescript-eslint/no-unused-vars":"off",
+    "react-hooks/exhaustive-deps": "off"
   },
 };
 

@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react'
 import { pusherClient } from '~/libs/pusher';
-import { UsViewer } from '~/libs/types';
-import { msg } from '../RightBar/MessagesContainer';
+import type { UsViewer } from '~/libs/types';
+import type { msg } from '../RightBar/MessagesContainer';
 import { useSession } from 'next-auth/react';
 
 interface Props extends UsViewer {
