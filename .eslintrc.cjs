@@ -27,7 +27,7 @@ const config = {
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/await-thenable": "error",
     "@typescript-eslint/no-unused-vars":"off",
-    "react-hooks/exhaustive-deps": "off"
+    "react-hooks/exhaustive-deps": "off",
   },
 };
 
