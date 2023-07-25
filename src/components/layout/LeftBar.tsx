@@ -3,7 +3,7 @@ import Search from '../leftBar/search'
 import { api } from '~/utils/api'
 import Show from '../leftBar/Show'
 import { useSession } from 'next-auth/react'
-import { UserViewer } from '~/libs/types'
+import type { UserViewer } from '~/libs/types'
 import LookForUsers from '../leftBar/LookForUsers'
 
 interface Props {
